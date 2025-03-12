@@ -10,7 +10,7 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
     exit;
 }
 
-require_once 'config.php';
+require_once '../../config.php';
 require_once 'vendor/autoload.php';
 require_once 'utilities.php';
 $pdo = connectDatabase($hostname, $database, $username, $password);

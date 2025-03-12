@@ -41,7 +41,7 @@ if (!$laureate) {
     die("Laureate not found.");
 }
 
-// Fetch prize details for Literature laureates (if applicable)
+
 $prizeDetails = [];
 if ($laureate['category'] === 'Literature') {
     $queryDetails = "
